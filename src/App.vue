@@ -1,6 +1,6 @@
 <template>
   <div>
-    <SearchBar v-on:termChange="onTermChange"></SearchBar>
+    <SearchBar @termChange="onTermChange"></SearchBar>
     Hi!
   </div>
 </template>
